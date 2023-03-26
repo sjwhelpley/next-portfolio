@@ -1,0 +1,22 @@
+.about {
+    margin: 20px 0px;
+  }
+  
+.aboutInfo {
+    width: 75%;
+    margin: 30px auto;
+  }
+
+#profile-pic {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+    #profile-pic {
+      float: left;
+      width: 25%;
+      margin: 20px;
+    }
+  }

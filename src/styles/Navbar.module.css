@@ -1,0 +1,52 @@
+  .navBar {
+    line-height: 4em;
+  }
+  
+  .navLinks {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+    .navLinks {
+      font-size: 1.25rem;
+      display: inline;
+      margin-left: 10vw;
+    }
+  }
+  
+  .mobileMenu {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+    .mobileMenu {
+      display: none;
+    }
+
+    .desktopMenu {
+      display: inline;
+    }
+  }
+  
+  .mobileNavBar {
+    width: 100%;
+    text-align: center;
+    transition: height 350ms ease-in-out;
+  }
+  
+  .openMenu {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--lightblue);
+    margin-bottom: 10px;
+  }
