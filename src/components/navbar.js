@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import styles from '@/styles/Navbar.module.css'
-import NavLink from '@/components/NavLink';
+import NavLink from '../components/navlink';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = React.useState(false)
