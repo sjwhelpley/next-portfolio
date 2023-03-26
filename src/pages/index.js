@@ -7,7 +7,7 @@ const projects = [
   {
     name: 'POEMOTION',
     subtitle: 'Side Project',
-    description: 'Web application that uses Computer Vision and OpenAI to generate an immersive experience based on the user&apos;s mood.',
+    description: "Web application that uses Computer Vision and OpenAI to generate an immersive experience based on the user's mood.",
     path: '/portfolio/poemotion',
     imgSrc: ''
   },
@@ -39,7 +39,7 @@ export default function Home() {
     <Layout>
       <section className={styles.intro}>
         <h1 className={styles.introTitle} style={{ marginBottom: '20px' }}>
-          Hi, I'm Samantha!<br />
+          Hi, I&apos;m Samantha!<br />
           Creative {' '}<span className={styles.highlight}>software developer</span>{' '}
           in Pittsburgh.
         </h1>
